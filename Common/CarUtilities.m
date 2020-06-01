@@ -251,11 +251,11 @@ BOOL ProcessCarFileAtPath(NSString *inCarPath, NSString *inOutputFolder, CarName
 				else
 				{
 					// Image specific filename information
-					NSString *scale = asset.scale > 1.0 ? [NSString stringWithFormat:@"@%dx", (int)floor(asset.scale)] : @"";
-					if([scale length] > 0)
-					{
-						fileName = [NSString stringWithFormat:@"%@%@", fileName, scale];
-					}
+                    NSString *scale = asset.scale > 1.0 ? [NSString stringWithFormat:@"@%dx", (int)floor(asset.scale)] : @"";
+                    if([scale length] > 0)
+                    {
+                        fileName = [NSString stringWithFormat:@"%@%@", fileName, scale];
+                    }
 					
 					fileName = [NSString stringWithFormat:@"%@.png", fileName];
 				}

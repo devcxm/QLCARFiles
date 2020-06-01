@@ -15,7 +15,6 @@
 		FA11D67A1E7BF96900912157 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11D6791E7BF96900912157 /* GeneratePreviewForURL.m */; };
 		FA11D67C1E7BF96900912157 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FA11D67B1E7BF96900912157 /* main.c */; };
 		FA11D6861E7BFB4800912157 /* previewTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = FA11D6851E7BFB4800912157 /* previewTemplate.html */; };
-		FA11D6891E7BFB5A00912157 /* CoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11D6881E7BFB5A00912157 /* CoreUI.framework */; };
 		FA974FB6217F740200E303A3 /* ImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA974FB5217F740200E303A3 /* ImageUtilities.m */; };
 		FA974FB7217F740200E303A3 /* ImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA974FB5217F740200E303A3 /* ImageUtilities.m */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		FA11D67B1E7BF96900912157 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FA11D67D1E7BF96900912157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA11D6851E7BFB4800912157 /* previewTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = previewTemplate.html; sourceTree = "<group>"; };
-		FA11D6881E7BFB5A00912157 /* CoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreUI.framework; path = System/Library/PrivateFrameworks/CoreUI.framework; sourceTree = SDKROOT; };
 		FA974FB4217F740200E303A3 /* ImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtilities.h; sourceTree = "<group>"; };
 		FA974FB5217F740200E303A3 /* ImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA11D6891E7BFB5A00912157 /* CoreUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +113,6 @@
 			children = (
 				022C26C0217D030F007CACAE /* CoreUI.framework */,
 				022C26BE217D02F2007CACAE /* CoreUI */,
-				FA11D6881E7BFB5A00912157 /* CoreUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +177,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = FA11D66A1E7BF96900912157;
