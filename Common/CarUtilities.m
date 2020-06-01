@@ -31,24 +31,24 @@ NSString *GetFileNameForNamedLookup(CUINamedLookup * inNamedLookup)
 	//
 	// appearance
 	//
-	NSString *appearance = inNamedLookup.appearance;
-	if([appearance length] > 0)
-	{
-		if([appearance hasPrefix:@"NSAppearanceName"])
-		{
-			appearance = [appearance substringFromIndex:[@"NSAppearanceName" length]];
-		}
-		
-		if([appearance hasSuffix:@"System"])
-		{
-			appearance = [appearance substringToIndex:[appearance length] - [@"System" length]];
-		}
-		
-		if([appearance length] > 0)
-		{
-			[fileName appendFormat:@"~%@", appearance];
-		}
-	}
+//	NSString *appearance = inNamedLookup.appearance;
+//	if([appearance length] > 0)
+//	{
+//		if([appearance hasPrefix:@"NSAppearanceName"])
+//		{
+//			appearance = [appearance substringFromIndex:[@"NSAppearanceName" length]];
+//		}
+//		
+//		if([appearance hasSuffix:@"System"])
+//		{
+//			appearance = [appearance substringToIndex:[appearance length] - [@"System" length]];
+//		}
+//		
+//		if([appearance length] > 0)
+//		{
+//			[fileName appendFormat:@"~%@", appearance];
+//		}
+//	}
 	
 	//
 	// graphicsClass
@@ -172,7 +172,7 @@ BOOL ProcessCarFileAtPath(NSString *inCarPath, NSString *inOutputFolder, CarName
 		if(![version hasPrefix:@"IBCocoaTouchImageCatalogTool-"] && ![version hasPrefix:@"ibtoold-"])
 		{
 			// Unsupported car file
-			return NO;
+//			return NO;
 		}
 	}
 	
