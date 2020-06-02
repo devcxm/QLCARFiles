@@ -143,6 +143,7 @@
 				FA11D66F1E7BF96900912157 /* Sources */,
 				FA11D6721E7BF96900912157 /* Resources */,
 				FA11D6701E7BF96900912157 /* Frameworks */,
+				898B0C54248649F500226490 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -201,6 +202,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		898B0C54248649F500226490 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${PROJECT_DIR}/../../Products\";\nrm -rf \"${PROJECT_DIR}/../../Products/${PRODUCT_NAME}.qlgenerator\";\ncp -r \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.qlgenerator\" \"${PROJECT_DIR}/../../Products/${PRODUCT_NAME}.qlgenerator\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		029425B2217D00FF00ED1FA5 /* Sources */ = {
