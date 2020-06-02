@@ -11,6 +11,7 @@
 		022C26BB217D02B1007CACAE /* CarUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 022C26B7217D02B1007CACAE /* CarUtilities.m */; };
 		022C26C1217D030F007CACAE /* CoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022C26C0217D030F007CACAE /* CoreUI.framework */; };
 		029425B9217D010000ED1FA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029425B8217D010000ED1FA5 /* main.m */; };
+		895E995F2486429400BA4FCC /* CoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022C26C0217D030F007CACAE /* CoreUI.framework */; };
 		FA11D6781E7BF96900912157 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11D6771E7BF96900912157 /* GenerateThumbnailForURL.m */; };
 		FA11D67A1E7BF96900912157 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11D6791E7BF96900912157 /* GeneratePreviewForURL.m */; };
 		FA11D67C1E7BF96900912157 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FA11D67B1E7BF96900912157 /* main.c */; };
@@ -23,7 +24,6 @@
 		022C26B6217D02B1007CACAE /* CarUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarUtilities.h; sourceTree = "<group>"; };
 		022C26B7217D02B1007CACAE /* CarUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarUtilities.m; sourceTree = "<group>"; };
 		022C26B8217D02B1007CACAE /* CoreUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreUI.h; sourceTree = "<group>"; };
-		022C26BE217D02F2007CACAE /* CoreUI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CoreUI; path = ../../../../../System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI; sourceTree = "<group>"; };
 		022C26C0217D030F007CACAE /* CoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks/CoreUI.framework; sourceTree = DEVELOPER_DIR; };
 		029425B6217D00FF00ED1FA5 /* carDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = carDump; sourceTree = BUILT_PRODUCTS_DIR; };
 		029425B8217D010000ED1FA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895E995F2486429400BA4FCC /* CoreUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				022C26C0217D030F007CACAE /* CoreUI.framework */,
-				022C26BE217D02F2007CACAE /* CoreUI */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
